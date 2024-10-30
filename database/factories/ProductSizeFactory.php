@@ -18,7 +18,7 @@ class ProductSizeFactory extends Factory
     {
         return [
             'size' => $this->faker->randomElement(['XS', 'S', 'M', 'L', 'XL', 'XXL']),
-            'product_id' => $this->faker->numberBetween(1, 1000),
+            'product_id' => $this->faker->numberBetween(1, 100),
         ];
     }
 }

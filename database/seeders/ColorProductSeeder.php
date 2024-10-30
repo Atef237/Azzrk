@@ -13,6 +13,6 @@ class ColorProductSeeder extends Seeder
      */
     public function run(): void
     {
-        ColorProduct::factory(2000)->create();
+        ColorProduct::factory(300)->create();
     }
 }

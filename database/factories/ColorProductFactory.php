@@ -18,7 +18,7 @@ class ColorProductFactory extends Factory
     {
         return [
             'color' => $this->faker->colorName(),
-            'product_id' => $this->faker->numberBetween(1, 1000),
+            'product_id' => $this->faker->numberBetween(1, 100),
         ];
     }
 }
